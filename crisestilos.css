@@ -1,0 +1,69 @@
+
+body{
+			/*background-color: #004080;*/
+	background-image: url("tapiz1.jpg");
+	color: navajowhite;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: 300%;
+	}
+header{
+	background-color: #0073e6;
+	border: 5px outset  #ffff1a;
+	}
+h1{
+	text-align: center;
+	font-family: times new roman;
+	}
+a:link{
+	color: antiquewhite ;
+	}
+a:visited{
+	background-color:  #e6f2ff;
+	color:yellowgreen ;
+
+	}
+a:active{
+	color: indianred;
+	}
+#blog .contenedor{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#blog article {
+    margin: 15px;
+}
+#blog img {
+	width: 50%;
+	height: 50%;
+	display: block;
+	margin: auto;
+}
+
+.center{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.ger{
+    width: 70%;
+    top: 50px;
+    text-align: center;
+    background: hsla(220, 100%, 70%, 0.7);
+    border-radius: 10px;
+}
+.ger a{
+    display:  block;
+    color: #fff;
+    text-decoration:none;
+    padding: 10px;
+    border-bottom: 2px 
+}
+.ger li{
+	list-style: none;
+}
+.ger a:hover {
+  background-color: hsl(220, 100%, 75%);
+  border-radius: 10px;
+}
