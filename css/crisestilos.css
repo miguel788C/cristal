@@ -1,0 +1,167 @@
+
+body{
+	background-color: #004080;
+	color: navajowhite;
+	font-family: 'Open Sans', sans-serif;
+	}
+header{
+	background: #4747d1;
+	width: 100%;
+	height: 50px;
+	color: #fff;
+	top: 0;
+	left: 0;
+
+	}
+.contenedor {
+	width: 90%;
+	margin: auto;
+} 
+#menu-bar {
+	display: none;
+
+}
+header label {
+	float: right;
+	font-size: 28px;
+	margin: 6px 0;
+	cursor: pointer;
+
+}
+.menu {
+	position: absolute;
+	top: 50px;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background: rgb(71, 71, 209, 0.9);
+	transition: all 0.5s;
+	transform: translateX(-100%);
+}
+.menu a {
+	display: block;
+	color: #fff;
+	height: 20px;
+	text-decoration: none;
+	padding: 15px;
+	border-bottom: 1px solid rgba(26, 83, 255, 0.5);
+}
+.menu a:hover {
+	background: rgba(26, 83, 255, 0.3);
+}
+#menu-bar:checked ~ .menu {
+	transform: translateX(0%);
+}
+h1{
+	text-align: center;
+	font-family: times new roman;
+	float: left;
+	font-size: 20px
+}
+h2 {
+	text-align: center;
+	font-family: times new roman;
+	font-size: 20px
+}
+header .contenedor {
+	display: table;
+}
+a:link{
+	color: antiquewhite ;
+	}
+a:visited{
+	background-color:  #e6f2ff;
+	color:yellowgreen ;
+
+}
+a:hover{
+	background-color:  #e6f2ff;
+
+}
+a:active{
+	color: indianred;
+}
+#blog .contenedor{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#blog article {
+    margin: 15px;
+    width: 70px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    float: le4;
+}
+
+#blog img {
+	width: 50%;
+	height: 50%;
+	display: block;
+	margin: auto;
+}
+#blog video {
+	width: 50%;
+	height: 50%;
+	display: block;
+	margin: auto;
+}
+footer .contenedor {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+
+}
+
+footer.copy {
+    font-size: 20px;
+}
+
+.sociales {
+    width: 100%;
+    text-align: center;
+    background: #8585ad;
+    color: black
+}
+
+.sociales a {
+    color: #333;
+    text-decoration: none;
+}
+#main {
+	margin: 150px auto;
+	width: 600px;
+}
+table {
+	background-color: #19194d;
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+th, td {
+	padding: 20px;
+}
+tr:inth-child(event){
+	background: #7979d2;
+}
+@media (min-width: 700px) {
+	h1{
+		font-size: 25px;
+	}
+	.menu {
+		position: static;
+		width: auto;
+		height: auto;
+		transform: translateX(0%);
+		float: right;
+		display: flex;
+	}
+	.menu a {
+		border: none;
+	}
+	header label {
+		display: none;
+	}
+
+}
